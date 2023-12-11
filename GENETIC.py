@@ -169,5 +169,5 @@ plt.axis('off')
 animate = lambda i: patch.set_data(frames[i])
 ani = matplotlib.animation.FuncAnimation(plt.gcf(), animate, frames=len(frames), interval = 50)
 #HTML(ani.to_jshtml())
-ani.save("/workspace/mario.gif", writer="pillow")
+ani.save("/workspace/mario_gen.gif", writer="pillow")
 
